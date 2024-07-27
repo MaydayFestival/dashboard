@@ -1,0 +1,52 @@
+.tile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 25px;
+  border: 1px solid #ddd; /* Bordure légère */
+  border-radius: 8px;
+  background-color: white;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Ombre subtile */
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  min-height: 5em;
+  justify-content: center;
+}
+
+.tile a {
+  justify-self: center;
+  vertical-align: middle;
+}
+
+.tile:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+  transition: 1s;
+  background-color: rgba(32, 85, 132, 0.15);
+  border-color: black;
+}
+
+.tile .icon {
+  font-size: 2.5em;
+  margin-bottom: 15px;
+  color: #333; /* Couleur de l'icône */
+}
+
+.tile span {
+  font-weight: 500;
+}
+
+*, a, p {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+  color: black;
+}
+
+.tile-image {
+  width: 100%; /* Ou une largeur fixe */
+  height: auto; /* Conserver le ratio d'aspect */
+  object-fit: cover; /* Remplir la zone sans déformer l'image */
+  margin-bottom: 15px; /* Espace entre l'image et le texte */
+}
