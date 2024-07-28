@@ -4,7 +4,7 @@ import './Tile.css';
 const Tile = ({ name, link, icon, image }) => { // Ajout de la prop "image"
   return (
     <a href={link} className="tile" target="_blank" rel="noopener noreferrer">
-      {image && <img src={image} alt={name} className="tile-image" />} {/* Image conditionnelle */}
+      {image && <img src={image} alt={name} className="tile-image" />}
       <i className={`icon ${icon}`}></i>
       <span>{name}</span>
     </a>

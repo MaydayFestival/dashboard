@@ -4,7 +4,7 @@ import './TilePanel.css';
 
 const TilePanel = () => {
   const appLinks = [
-    { name: 'Application 1', link: 'https://example1.com', icon: 'app1-icon', image: 'react-docker/src/pictures/favicon.ico' },
+    { name: 'Site Mayday', link: 'https://maydayfestival.fr', icon: 'app1-icon', image: './pictures/favicon.ico' },
     { name: 'Discord', link: 'https://discord.com/', icon: 'app2-icon' },
     { name: 'Drive', link: 'https://drive.google.com/drive/folders/167DuBF_YD8rtS-3PGuUm6NcPyNovjZPu', icon: 'app2-icon' },
     { name: 'Openproject', link: 'https://op.assomayday.org', icon: 'app1-icon' },

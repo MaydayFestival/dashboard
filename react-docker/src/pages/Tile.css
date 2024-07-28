@@ -5,10 +5,10 @@
   padding: 25px;
   border: 1px solid #ddd; /* Bordure légère */
   border-radius: 8px;
-  background-color: white;
+  background-color: darkblue;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Ombre subtile */
   transition: transform 0.2s ease, box-shadow 0.2s ease;
-  min-height: 5em;
+  min-height: 7em;
   justify-content: center;
 }
 
@@ -20,8 +20,8 @@
 .tile:hover {
   transform: translateY(-2px);
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
-  transition: 1s;
-  background-color: rgba(32, 85, 132, 0.15);
+  transition: 0.5s;
+  background-color: rgba(35, 132, 216, 0.15);
   border-color: black;
 }
 
@@ -37,6 +37,7 @@
 
 *, a, p {
   text-decoration: none;
+  color:#fff;
 }
 
 a:visited {

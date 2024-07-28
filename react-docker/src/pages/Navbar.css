@@ -3,7 +3,7 @@
     justify-content: space-between;
     align-items: center;
     padding: 1rem;
-    background-color: #f0f0f0; /* Ou une autre couleur de fond */
+    background-color: darkblue; /* Ou une autre couleur de fond */
   }
   
   .logo {
@@ -21,6 +21,10 @@
     margin-right: 1rem;
   }
 .h1 {
-  color: black;
+  color: #fff;
   height: 1.5em;
+}
+
+* {
+  color: #fff;
 }
