@@ -3,7 +3,7 @@
   grid-template-columns: repeat(4, minmax(180px, 1fr));
   gap: 20px;
   padding: 20px;
-  background-color: #727272; /* Fond gris clair */
+  background-color: #1a1a32; /* Fond gris clair */
 }
 
 a, * {
@@ -11,5 +11,9 @@ a, * {
 }
 
 * {
-  background-color: #727272;
+  background-color: #1a1a32;
+}
+
+.tile span, a {
+  background-color: rgba(0, 0, 0, 0);
 }

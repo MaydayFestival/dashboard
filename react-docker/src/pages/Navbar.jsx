@@ -1,15 +1,12 @@
 import React from 'react';
 import TilePanel from './TilePanel';
 import './Navbar.css';
+import logo from './pictures/favicon.ico';
 
 const Navbar = () => {
   return (
-    <nav className="navbar">
-      <div className="logo"><h1>Dashboard organisation Mayday Festival</h1></div>
-      <ul className="nav-links">
-        <li><a href="https://maydayfestival.fr" target="_blank">Site public</a></li>
-        <li><a href="#">À propos</a></li>
-      </ul>
+    <nav className="logo">
+      <img src={logo} alt="Logo Mayday" />
     </nav>
   );
 };

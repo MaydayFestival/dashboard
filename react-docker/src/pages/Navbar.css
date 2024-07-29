@@ -1,13 +1,9 @@
-.navbar {
+.logo {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   padding: 1rem;
-  background-color:#727272;
-}
-
-.logo {
-  font-weight: bold;
+  background-color:#1a1a32;
 }
 
 .nav-links {
@@ -22,8 +18,8 @@
 }
 
 .h1 {
-color: #fff;
-height: 1.5em;
+  color: #fff;
+  height: 1.5em;
 }
 
 * {
@@ -31,5 +27,5 @@ color: #fff;
 }
 
 * {
-background-color: #727272;
+background-color: #1a1a32;
 }
