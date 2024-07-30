@@ -36,20 +36,20 @@
 }
 
 .tile-image {
-  width: 7em; /* Ajustez la taille selon vos besoins */
+  width: 6em;
   height: auto;
-  margin-bottom: 10px; /* Espace entre l'image et le nom */
+  margin-bottom: 10px;
   background-color: transparent;
 }
 
 @media (max-width: 768px) { 
   .tile {
-    padding: 15px; /* Encore réduit */
+    padding: 15px;
     min-height: 5em;
-    font-size: 14px; /* Réduit la taille de la police */
+    font-size: 14px;
   }
 
   .tile-image {
-    width: 5em; /* Réduit la taille de l'image */
+    width: 5em;
   }
 }

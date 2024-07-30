@@ -6,11 +6,11 @@ import discordIcon from './pictures/discord.png';
 import driveIcon from './pictures/drive.png';
 import mailsIcon from './pictures/gmail.png';
 import opIcon from './pictures/op.png';
-import strapiIcon from './pictures/strapi.svg';
+import strapiIcon from './pictures/strapi.png';
 import dolibarrIcon from './pictures/dolibarr.png';
 import traefikIcon from './pictures/traefik.webp';
 import trompetteIcon from './pictures/trompette.png';
-import benevolesIcon from './pictures/benevoles.webp';
+import benevolesIcon from './pictures/benevoles.png';
 
 const TilePanel = () => {
   const appLinks = [
