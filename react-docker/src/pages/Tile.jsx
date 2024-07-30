@@ -1,12 +1,12 @@
 import React from 'react';
-import './Tile.css';
+import './Tile.css'; 
 
-const Tile = ({ name, link, icon, image }) => { // Ajout de la prop "image"
+const Tile = ({ name, link, icon, image }) => {
   return (
-    <a href={link} className="tile" target="_blank" rel="noopener noreferrer">
+    <a href={link} target="_blank" rel="noopener noreferrer" className="tile">
       {image && <img src={image} alt={name} className="tile-image" />}
-      <i className={`icon ${icon}`}></i>
-      <span>{name}</span>
+      <span className={`tile-icon ${icon}`}></span>
+      <span className="tile-name">{name}</span>
     </a>
   );
 };

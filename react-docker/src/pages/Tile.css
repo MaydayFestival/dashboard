@@ -17,11 +17,11 @@
   vertical-align: middle;
 }
 
-.tile:hover {
+.tile:hover, .tile-image:hover {
   transform: translateY(-2px);
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
-  transition: 0.5s;
-  background-color: #0e101d;
+  transition: 0.3s;
+  background-color: #353e75;
   border-color: white;
 }
 
@@ -36,8 +36,7 @@
 }
 
 .tile-image {
-  width: 100%; /* Ou une largeur fixe */
-  height: auto; /* Conserver le ratio d'aspect */
-  object-fit: cover; /* Remplir la zone sans déformer l'image */
-  margin-bottom: 15px; /* Espace entre l'image et le texte */
+  width: 7em; /* Ajustez la taille selon vos besoins */
+  height: auto;
+  margin-bottom: 10px; /* Espace entre l'image et le nom */
 }
