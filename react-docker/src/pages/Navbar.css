@@ -3,7 +3,7 @@
   justify-content: center;
   align-items: center;
   padding: 1rem;
-  background-color:#1a1a32;
+  background-color: transparent;
 }
 
 .nav-links {
@@ -28,4 +28,15 @@ color: #fff;
 
 * {
 background-color: #1a1a32;
+}
+
+@media (max-width: 768px) {
+  .logo {
+    padding: 0.5rem; /* Réduire le padding autour du logo */
+  }
+
+  .logo img { /* Cibler l'image du logo */
+    max-width: 80%; /* Réduire la largeur maximale */
+    height: auto;  /* Garder les proportions de l'image */
+  }
 }
