@@ -17,7 +17,7 @@
   vertical-align: middle;
 }
 
-.tile:hover, .tile-image:hover {
+.tile:hover {
   transform: translateY(-2px);
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
   transition: 0.3s;
@@ -39,4 +39,5 @@
   width: 7em; /* Ajustez la taille selon vos besoins */
   height: auto;
   margin-bottom: 10px; /* Espace entre l'image et le nom */
+  background-color: transparent;
 }

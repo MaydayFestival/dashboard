@@ -10,7 +10,7 @@ import strapiIcon from './pictures/strapi.svg';
 import dolibarrIcon from './pictures/dolibarr.png';
 import traefikIcon from './pictures/traefik.webp';
 import trompetteIcon from './pictures/trompette.png';
-import benevolesIcon from './pictures/benevoles.png';
+import benevolesIcon from './pictures/benevoles.webp';
 
 const TilePanel = () => {
   const appLinks = [
