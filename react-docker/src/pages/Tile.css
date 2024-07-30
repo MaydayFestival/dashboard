@@ -4,7 +4,7 @@
   align-items: center;
   padding: 25px;
   border: 1px solid #ddd; /* Bordure légère */
-  border-radius: 8px;
+  border-radius: 10px;
   background-color: #1a1a32;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Ombre subtile */
   transition: transform 0.2s ease, box-shadow 0.2s ease;
@@ -40,4 +40,16 @@
   height: auto;
   margin-bottom: 10px; /* Espace entre l'image et le nom */
   background-color: transparent;
+}
+
+@media (max-width: 768px) { 
+  .tile {
+    padding: 15px; /* Encore réduit */
+    min-height: 5em;
+    font-size: 14px; /* Réduit la taille de la police */
+  }
+
+  .tile-image {
+    width: 5em; /* Réduit la taille de l'image */
+  }
 }

@@ -1,8 +1,8 @@
 .tile-panel {
   display: grid;
-  grid-template-columns: repeat(4, minmax(180px, 1fr));
-  gap: 20px;
-  padding: 20px;
+  grid-template-columns: repeat(4, minmax(180px, 0.5fr));
+  gap: 1em;
+  padding: 4em;
   background-color: #1a1a32; /* Fond gris clair */
 }
 
@@ -16,4 +16,17 @@ a, * {
 
 .tile span, a {
   background-color: rgba(0, 0, 0, 0);
+}
+
+/* Styles pour écrans plus petits (téléphones) */
+@media (max-width: 768px) {
+  .tile-panel {
+    grid-template-columns: repeat(2, minmax(100px, 1fr)); /* Changer les colonnes pour davantage de verticalité */
+    gap: 10px;
+    padding: 1em;
+  }
+
+  .tile {
+    font-size: 14px; /* Réduire la taille du texte */
+  }
 }

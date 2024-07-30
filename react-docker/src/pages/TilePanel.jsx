@@ -17,8 +17,8 @@ const TilePanel = () => {
     
     { name: 'Discord', link: 'https://discord.com/channels/1265099843978793080/1265099844444487802', icon: 'app2-icon', image: discordIcon },
     { name: 'Drive', link: 'https://drive.google.com/drive/folders/167DuBF_YD8rtS-3PGuUm6NcPyNovjZPu', icon: 'app2-icon', image: driveIcon },
-    { name: 'Mails', link: 'https://mail.google.com/', icon: 'app2-icon', image: mailsIcon },
-    { name: 'Openproject', link: 'https://op.assomayday.org', icon: 'app1-icon', image: opIcon },
+    { name: 'Mail', link: 'https://mail.google.com/', icon: 'app2-icon', image: mailsIcon },
+    { name: 'OpenProject', link: 'https://op.assomayday.org', icon: 'app1-icon', image: opIcon },
     { name: 'Strapi', link: 'https://strapi.assomayday.org', icon: 'app2-icon', image: strapiIcon },
     { name: 'Dolibarr', link: 'https://dolibarr.assomayday.org', icon: 'app2-icon', image: dolibarrIcon },
     { name: 'Site officiel', link: 'https://maydayfestival.fr', icon: 'app1-icon', image: Logo },
