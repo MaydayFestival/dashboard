@@ -2,7 +2,7 @@ import React from 'react';
 import Tile from './Tile';
 import './TilePanel.css';
 import Logo from './pictures/favicon.ico';
-import discordIcon from './pictures/discord.png';
+import discordIcon from './pictures/discord.webp';
 import driveIcon from './pictures/drive.png';
 import mailsIcon from './pictures/gmail.png';
 import opIcon from './pictures/op.png';
