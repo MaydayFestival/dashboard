@@ -10,6 +10,7 @@
   transition: transform 0.2s ease, box-shadow 0.2s ease;
   min-height: 7em;
   justify-content: center;
+  justify-content: center;
 }
 
 .tile a {
