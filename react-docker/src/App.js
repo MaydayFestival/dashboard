@@ -1,6 +1,7 @@
 import React from 'react';
 import TilePanel from './pages/TilePanel'; // Chemin relatif vers le composant
 import Navbar from './pages/Navbar'; // Chemin relatif vers le composant
+import Icon from './pages/pictures/favicon.ico'
 
 function App() {
   return (
