@@ -11,6 +11,7 @@ import dolibarrIcon from './pictures/dolibarr.png';
 import traefikIcon from './pictures/traefik.webp';
 import trompetteIcon from './pictures/trompette.png';
 import benevolesIcon from './pictures/benevoles.png';
+import adminConsole from './pictures/adminConsole.png';
 
 const TilePanel = () => {
   const appLinks = [
@@ -23,6 +24,7 @@ const TilePanel = () => {
     { name: 'Dolibarr - Gestion financière', link: 'https://dolibarr.assomayday.org', icon: 'app2-icon', image: dolibarrIcon },
     { name: 'Site officiel', link: 'https://maydayfestival.fr', icon: 'app1-icon', image: Logo },
     { name: 'Site bénévoles', link: 'https://benevoles.maydayfestival.fr', icon: 'app1-icon', image: benevolesIcon },
+    { name: 'Console administrateur - Workspace', link: 'https://admin.google.com/ac/home?hl=fr', icon: 'app1-icon', image: adminConsole },
     { name: 'Trompette - Gestion d\'identité', link: 'https://trompette.espace120.fr/ui/login/', icon: 'app2-icon', image: trompetteIcon },
     { name: 'Traefik - Proxy', link: 'https://monitor.assomayday.org', icon: 'app2-icon', image: traefikIcon },
   ];
