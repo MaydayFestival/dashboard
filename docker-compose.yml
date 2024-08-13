@@ -7,6 +7,7 @@ networks:
 services:
   react-docker:
     container_name: react-docker
+    restart: unless-stopped
     build:
       context: ./react-docker
     ports:
@@ -19,4 +20,4 @@ services:
       - traefik.http.routers.dashboard.rule=Host(`dashboard.assomayday.org`)
       - traefik.http.routers.dashboard.tls.certresolver=letsencrypt
       - traefik.http.services.dashboard.loadbalancer.server.port=3000
-      - traefik.docker.network=traefik 
+      - traefik.docker.network=traefik

@@ -22,10 +22,12 @@ const TilePanel = () => {
     { name: 'OpenProject - Gestion de projet', link: 'https://op.assomayday.org', icon: 'app1-icon', image: opIcon },
     { name: 'Strapi - Gestion site web', link: 'https://strapi.assomayday.org', icon: 'app2-icon', image: strapiIcon },
     { name: 'Dolibarr - Gestion financière', link: 'https://dolibarr.assomayday.org', icon: 'app2-icon', image: dolibarrIcon },
+    { name: 'Spliit - Dépenses partagées', link: 'https://spliit.assomayday.org/', icon: 'app2-icon', image: dolibarrIcon },
     { name: 'Site officiel', link: 'https://maydayfestival.fr', icon: 'app1-icon', image: Logo },
     { name: 'Site bénévoles', link: 'https://benevoles.maydayfestival.fr', icon: 'app1-icon', image: benevolesIcon },
-    { name: 'Console administrateur - Workspace', link: 'https://admin.google.com/ac/home?hl=fr', icon: 'app1-icon', image: adminConsole },
+    { name: 'Console d\'administration - Workspace', link: 'https://admin.google.com/ac/home?hl=fr', icon: 'app1-icon', image: adminConsole },
     { name: 'Trompette - Gestion d\'identité', link: 'https://trompette.espace120.fr/ui/login/', icon: 'app2-icon', image: trompetteIcon },
+    { name: 'Duplicati - Backup serveur', link: 'https://duplicati.assomayday.org/', icon: 'app2-icon', image: traefikIcon },
     { name: 'Traefik - Proxy', link: 'https://monitor.assomayday.org', icon: 'app2-icon', image: traefikIcon },
   ];
 
